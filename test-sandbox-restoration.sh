@@ -15,15 +15,19 @@ sudo /backup/scripts/borgbackup_manager.sh extract \
 
 echo ""
 echo "=== Contenu du sandbox ==="
-ls -lh "$SANDBOX/etc/" | head -20
+sudo ls -lh "$SANDBOX/etc/" | head -20
 
 echo ""
 echo "=== Vérification d'un fichier restauré ==="
-cat "$SANDBOX/etc/hostname"
+sudo cat "$SANDBOX/etc/hostname"
 
 echo ""
 echo "=== Taille du sandbox ==="
-du -sh "$SANDBOX"
+sudo du -sh "$SANDBOX"
+
+echo ""
+echo "=== Nombre de fichiers restaurés ==="
+sudo find "$SANDBOX" -type f | wc -l
 
 echo ""
 echo "✅ Test sandbox réussi - Production non impactée !"
