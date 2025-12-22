@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 > **Travaux Pratiques - Administration Systèmes**  
-> Formation : Big Data & AI Engineering - ISGA Marrakech  
+> Formation : Cycle d'ingénierie des systèmes informatiques - ISGA Marrakech  
 > Auteur : Farah El Alem  
 > Date : Décembre 2025
 
