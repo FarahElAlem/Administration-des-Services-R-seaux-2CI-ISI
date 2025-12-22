@@ -344,7 +344,7 @@ sudo tail -f /backup/logs/backup_incremental_*.log
 | Fichiers par snapshot | 4-5 |
 | Économie d'espace | 48% |
 | Hard-links utilisés | 20+ |
-| Durée backup | < 1 seconde |
+| Durée backup | < 3 min |
 
 ---
 
